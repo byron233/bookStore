@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/estilos/main.css">
+    <title>Book Store</title>
+</head>
+<body>
+    <header class="redLight col-12 flexContent al-center">
+        <a href="/"><h1>BOOK STORE</h1></a>
+        <div class="searchDiv col-5 al-center entradaRounder flexContent">
+            <input class="col-11 search txRedLight smallFont" type="search" name="buqueda" id="busqueda" placeholder="Buscar libro por: Titulo, Autor...">
+            <button class="col-1 searchBtn flexContent al-center jf-center shortTrans txRedDark"><i class="fas fa-search mediumIcon shortTrans"></i></button>
+        </div>
+
+        <a href=""><button class="smallBtn redDark txWhite fadedDark shortTrans">Sign In</button></a>
+        <a href=""><button class="smallBtn white fadedDark txRedDark shortTrans">Login</button></a>
+        
+        <div class="shoppingDiv">
+            <span class="shoppingCount txRedDark">0</span>
+             <button id="carBtn" class="shortTrans fadedDark smallBtn shoppingBtn redDark txWhite"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+    </header>
+    <!--menu del carrito-->
+    <div class="shoppingMenu col-12" id="shopMenu">
+            <span class="triangulo"></span>
+            <div class="productsContent redLight flexContent al-center jf-center">
+                <div class="contentShop flexContent jf-center al-center">
+                    <div class="infoShop flexContent jf-center">
+                        <i class="bigIcon fas fa-cart-plus txWhite txCenter"></i>
+                        <hr class="Line white"/>
+                        <p class="txCenter smallFont txWhite bold">Añade productos al carrito de comparas</p>
+                    </div>
+                    <a href=""><button class="mediumBtn blue txWhite smallFont bold fadedDark shortTrans">Seguir comprando</button></a>
+                    <a href=""><button class="mediumBtn white txRedDark fadedDark shortTrans smallFont bold">Iniciar sesión</button></a>
+                    <a href=""><button class="mediumBtn redDark txWhite bold fadedDark shortTrans smallFont">Registratse</button></a>
+                </div>
+            </div>
+    </div>
+
+        <!--footer-->
+    <footer class="col-12 blue flexContent al-center jf-center">
+           <h2 class="h1">BOOK STORE</h2>
+            <div class="infoFooter">
+                <ul>
+                <h2 class="footerTitle bold txWhite txCenter">Tiendas</h2>
+                <hr class="Line redDark">
+                <li class="txWhite bold smallFont">La placita del libro</li>
+                <li class="txWhite bold smallFont">Plaza Asombroso</li>
+                <li class="txWhite bold smallFont">Bella Vista</li>
+                <li class="txWhite bold smallFont"> Integracion</li>
+                </ul>
+                <ul>
+                    <h2 class="footerTitle bold txWhite txCenter">Afiliados</h2>
+                    <hr class="Line redDark">
+                    <li class="txWhite bold smallFont">El Donador de Libros</li>
+                    <li class="txWhite bold smallFont">Super Melcocho</li>
+                    <li class="txWhite bold smallFont">La Bookoteca</li>
+                    <li class="txWhite bold smallFont">El Libro Dorado</li>
+                </ul>
+                <ul>
+                    <h2 class="footerTitle bold txWhite txCenter">Contactanos</h2>
+                    <hr class="Line redDark">
+                    <li class="txWhite bold smallFont">Tel:22-XX-XX-XX</li>
+                    <li class="txWhite bold smallFont">Tel 2: 23-XX-XX-XX</li>
+                    <li class="txWhite bold smallFont">bookStore@correo.com</li>
+                    <li class="txWhite bold smallFont">#BookStoreSV</li>
+                </ul>
+            </div>
+            <div class="ftIcon flexContent">
+                <a href=""><i class="fab fa-facebook-square semiBigIcon txWhite"></i></a>
+                <a href=""><i class="fab fa-instagram-square txWhite semiBigIcon"></i></a>
+                <a href=""><i class="fab fa-whatsapp-square txWhite semiBigIcon"></i></a>
+            </div>
+            <cite class="txWhite ftCite">BOOK STORE, Todos los derechos reservados, 2020</cite>
+    </footer>
+
+
+    <!--Scripts-->
+    <script src="/scripts/events.js"></script>
+    <script src="https://kit.fontawesome.com/af8ced57a9.js" crossorigin="anonymous"></script>
+    {{{body}}}
+    
+</body>
+</html>
